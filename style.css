@@ -5,12 +5,16 @@
     font-family: "Poppins", sans-serif;;
 }
 
+body{
+    overflow: hidden;
+}
+
 .navbar{
     background-color: #000;
     display: flex;
     align-items: center;
     gap: 50px;
-    padding: 13px 40px;
+    padding: 20px 40px;
     /* margin-top: 10px; */
 }
 
@@ -64,6 +68,7 @@ section:first-child::after {
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: 70vh;
     margin: 90px auto;
     z-index: 1;
 }
